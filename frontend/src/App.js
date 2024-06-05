@@ -1,12 +1,12 @@
 import React from 'react';
-import ChatBox from './components/ChatBox';
+import ChatBot from './components/ChatBot';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Chatbox</h1> {/* titulo da aplicação */}
-      <ChatBox /> {/* renderiza o componente Chatbox*/}
+      <ChatBot /> {/* renderiza o componente Chatbot*/}
     </div>
   );
 }

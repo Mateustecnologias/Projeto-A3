@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-ReactDOM.render(
+ReactDOM.render( // Renderiza o componente App dentro do root em html //
   <React.StrictMode>
     <App />
   </React.StrictMode>,
